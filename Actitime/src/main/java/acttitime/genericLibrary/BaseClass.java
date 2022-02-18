@@ -36,7 +36,7 @@ public class BaseClass {
 	@AfterMethod
 	public void logout()
 	{
-		driver.findElement(By.id("logoutLink")).click();
+		
 	}
 	@AfterClass
 	public void close()
